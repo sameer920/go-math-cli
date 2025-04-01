@@ -26,9 +26,16 @@ Before installing the code make sure you have go installed on your system.
    cd go-math
    ```
 2. Build the project:
-```go build```
+
+   ```bash
+   go build
+   ```
+
 3. Install the binary:
-```go install```
+
+   ```bash
+   go install
+   ```
 
 ---
 
@@ -37,42 +44,49 @@ Before installing the code make sure you have go installed on your system.
 Run the `go-math` command followed by the desired operation and its arguments. Below are some examples:
 
 ### Addition
+
 ```bash
 go-math add 5 10
 # Output: Addition of 5 and 10 = 15
 ```
 
 ### Subtraction
+
 ```bash
 go-math subtract 20 5
 # Output: Subtracting 5 from 20 = 15
 ```
 
 ### Multiplication
+
 ```bash
 go-math multiply 3 4
 # Output: Multiplication of 3 and 4 = 12
 ```
 
 ### Division
+
 ```bash
 go-math divide 10 2
 # Output: Division of 10 by 2 = 5
 ```
 
 ### Square
+
 ```bash
 go-math square 5
 # Output: Square of 5 = 25
 ```
 
 ### Square Root
+
 ```bash
 go-math sqrt 16
 # Output: Square root of 16 = 4
 ```
 
 ### Percentage
+
 ```bash
 go-math percent 200 10
 # Output: 10% of 200 = 20
@@ -113,6 +127,7 @@ This project was created for **educational purposes** and may not be production-
 Special thanks to the developers of the [Cobra CLI library](https://github.com/spf13/cobra) for making CLI development in Go so seamless.
 
 I would also like to acknowledge this [amazing article from JetBrains](https://www.jetbrains.com/guide/go/tutorials/cli-apps-go-cobra/conclusion/) that I followed initially to make this project.
+
 ---
 
 Happy coding! 😊
